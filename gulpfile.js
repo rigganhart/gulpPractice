@@ -13,25 +13,25 @@ gulp.task('default',['html','css','js', 'move'], function(){
 
 gulp.task('html', function() {
     gulp.src(`./index.html`)
-        .pipe(gulp.dest('../public'))
+        .pipe(gulp.dest('./public'))
 });
 
 gulp.task('css',function () {
     gulp.src(`./scss/*.scss`)
       .pipe(sass())
-      .pipe(gulp.dest('../../public'))
+      .pipe(gulp.dest('./public'))
       .pipe(refresh())
 });
 
 gulp.task('js', function () {
     gulp.src('./js/*.js')
         .pipe(uglify())
-        .pipe(gulp.dest('../../public'));
+        .pipe(gulp.dest('./public'));
 });
 
 gulp.task('move', function () {
   gulp.src('./images/*')
-    .pipe(gulp.dest('../../public/images'))
+    .pipe(gulp.dest('./public/images'))
 });
 
 // gulp.task('index', function () {

@@ -1,0 +1,21 @@
+{
+  "name": "flushbook",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "jquery": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp-image": "^2.0.1",
+    "gulp-inject": "^4.1.0",
+    "gulp-refresh": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^1.5.3"
+  },
+  "description": ""
+}
